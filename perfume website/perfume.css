@@ -1,0 +1,149 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: rgb(10, 1, 1);
+    background-color: rgb(223, 118, 160);
+    background-image: url(asset\img\butterfly.jpeg);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: rgb(239, 126, 243);
+    position: sticky;
+    top: 0;
+    box-shadow: 50px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(10, 3, 3);
+    font-weight: 500;
+}
+
+nav a:hover, nav a.active {
+    color: rgb(199, 21, 133);
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('asset/img/images 1.jpg') center/cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.hero .btn {
+    background: rgb(199, 21, 133);
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.hero .btn:hover {
+    background: rgb(139, 0, 93);
+}
+
+/* Highlights */
+.highlights {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 10px 10px  rgba(151, 142, 142, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* About Page */
+.about img {
+    width: 20%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(247, 215, 232);
+}
+
+th, td {
+    border: 1px solid rgba(255, 255, 255,1);
+    padding: 10px;
+}
+
+/* Services */
+.service-card {
+    color: black;
+    width: 250px;
+    background: rgba(219, 136, 205, 0.849);
+    border-radius: 12px;
+    box-shadow: 10px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    
+}
+.service-grid{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+/* Contact Page */
+input, textarea {
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    border-color: rgb(199, 21, 133);
+}
+
+button {
+    background: rgb(199, 21, 133);
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    background: rgb(139, 0, 93);
+}
+
+/* Footer */
+footer {
+    background: rgb(241, 98, 229);
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
